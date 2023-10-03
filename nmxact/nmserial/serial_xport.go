@@ -291,6 +291,7 @@ func (sx *SerialXport) Tx(bytes []byte) error {
  
  		writeBytes := base64Data[written : written+writeLen]
  		sx.txRaw(writeBytes)
+		sx.txRaw([]byte{'\n'})
 
 		written += writeLen
 	}
