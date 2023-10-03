@@ -26,10 +26,10 @@ import (
 	pb "gopkg.in/cheggaaa/pb.v1"
 
 	log "github.com/sirupsen/logrus"
-	"emfluids.com/mynewt-newtmgr/nmxact/mgmt"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmp"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmxutil"
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/mgmt"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmp"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
 	"sync"
 	"sync/atomic"
 )

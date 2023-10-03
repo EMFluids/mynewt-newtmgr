@@ -26,9 +26,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	. "emfluids.com/mynewt-newtmgr/nmxact/bledefs"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmxutil"
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
+	. "github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
 )
 
 const WRITE_CMD_BASE_SZ = 3

@@ -20,8 +20,8 @@
 package xact
 
 import (
-	"emfluids.com/mynewt-newtmgr/nmxact/nmp"
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmp"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
 )
 
 ///////////////////////////////////////////////////////////////////////////////

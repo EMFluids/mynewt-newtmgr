@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"time"
 
-	"emfluids.com/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmxutil"
 )
 
 type ListenerKey struct {

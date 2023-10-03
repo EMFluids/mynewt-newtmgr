@@ -25,8 +25,8 @@ import (
 	"fmt"
 
 	"mynewt.apache.org/newt/util"
-	"emfluids.com/mynewt-newtmgr/newtmgr/bll"
-	"emfluids.com/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/emfluids/mynewt-newtmgr/newtmgr/bll"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
 )
 
 type BllConfig struct {

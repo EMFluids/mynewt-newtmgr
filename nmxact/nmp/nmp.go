@@ -27,7 +27,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/ugorji/go/codec"
 
-	"emfluids.com/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmxutil"
 )
 
 const NMP_HDR_SIZE = 8

@@ -24,7 +24,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
 )
 
 type ToolInfoType struct {

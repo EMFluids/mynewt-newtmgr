@@ -22,9 +22,9 @@ package xact
 import (
 	"fmt"
 
-	"emfluids.com/mynewt-newtmgr/nmxact/mgmt"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmp"
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/mgmt"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmp"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
 )
 
 //////////////////////////////////////////////////////////////////////////////

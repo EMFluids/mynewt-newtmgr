@@ -22,9 +22,9 @@ package sesn
 import (
 	"time"
 
-	"emfluids.com/mynewt-newtmgr/nmxact/bledefs"
-	"emfluids.com/mynewt-newtmgr/nmxact/lora"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/lora"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmcoap"
 )
 
 type MgmtProto int

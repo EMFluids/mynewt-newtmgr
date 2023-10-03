@@ -30,11 +30,11 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 	"github.com/abiosoft/ishell/v2"
-	"emfluids.com/mynewt-newtmgr/newtmgr/nmutil"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmcoap"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmxutil"
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
-	"emfluids.com/mynewt-newtmgr/nmxact/xact"
+	"github.com/emfluids/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/xact"
 )
 
 var ObserverId int

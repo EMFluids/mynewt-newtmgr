@@ -27,7 +27,7 @@ import (
 	"strconv"
 	"strings"
 
-	. "emfluids.com/mynewt-newtmgr/nmxact/bledefs"
+	. "github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
 )
 
 type MsgOp int

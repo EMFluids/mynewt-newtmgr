@@ -22,9 +22,9 @@ package mgmt
 import (
 	"fmt"
 
-	"emfluids.com/mynewt-newtmgr/nmxact/nmp"
-	"emfluids.com/mynewt-newtmgr/nmxact/omp"
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmp"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/omp"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
 )
 
 func EncodeMgmt(s sesn.Sesn, m *nmp.NmpMsg) ([]byte, error) {

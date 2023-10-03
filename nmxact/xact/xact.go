@@ -21,8 +21,8 @@ package xact
 
 import (
 	log "github.com/sirupsen/logrus"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmp"
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmp"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
 )
 
 func txReq(s sesn.Sesn, m *nmp.NmpMsg, c *CmdBase) (

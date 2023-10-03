@@ -26,12 +26,12 @@ import (
 
 	"github.com/runtimeco/go-coap"
 
-	"emfluids.com/mynewt-newtmgr/nmxact/mgmt"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmcoap"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmp"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmxutil"
-	"emfluids.com/mynewt-newtmgr/nmxact/omp"
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/mgmt"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmp"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/omp"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
 )
 
 type SerialSesn struct {

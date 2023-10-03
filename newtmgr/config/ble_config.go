@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"mynewt.apache.org/newt/util"
-	"emfluids.com/mynewt-newtmgr/newtmgr/nmutil"
-	"emfluids.com/mynewt-newtmgr/nmxact/bledefs"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmble"
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
-	"emfluids.com/mynewt-newtmgr/nmxact/xport"
+	"github.com/emfluids/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmble"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/xport"
 )
 
 type BleConfig struct {

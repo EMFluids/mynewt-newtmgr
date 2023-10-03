@@ -22,7 +22,7 @@ package nmble
 import (
 	"sync"
 
-	"emfluids.com/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmxutil"
 )
 
 // The receiver never writes to any of its listeners.  It only maintains a set

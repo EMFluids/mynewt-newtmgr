@@ -27,7 +27,7 @@ import (
 
 	"github.com/JuulLabs-OSS/ble"
 
-	"emfluids.com/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
 )
 
 func UuidFromBllUuid(bllUuid ble.UUID) (bledefs.BleUuid, error) {

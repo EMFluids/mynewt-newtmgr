@@ -24,8 +24,8 @@ import (
 
 	"github.com/runtimeco/go-coap"
 
-	"emfluids.com/mynewt-newtmgr/nmxact/nmcoap"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmp"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmp"
 )
 
 var DfltTxOptions = TxOptions{

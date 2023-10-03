@@ -24,10 +24,10 @@ import (
 	"os"
 	"time"
 
-	"emfluids.com/mynewt-newtmgr/nmxact/bledefs"
-	"emfluids.com/mynewt-newtmgr/nmxact/nmble"
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
-	"emfluids.com/mynewt-newtmgr/nmxact/xact"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/nmble"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/xact"
 )
 
 func main() {

@@ -20,7 +20,7 @@
 package xport
 
 import (
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
 )
 
 type RxFn func(data []byte)

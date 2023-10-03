@@ -27,7 +27,7 @@ import (
 	"github.com/JuulLabs-OSS/ble/linux/hci/cmd"
 
 	"mynewt.apache.org/newt/util"
-	"emfluids.com/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
 )
 
 func BllXportSetConnParams(dev ble.Device, ownAddrType bledefs.BleAddrType) error {

@@ -26,8 +26,8 @@ import (
 
 	"github.com/JuulLabs-OSS/ble"
 	"github.com/JuulLabs-OSS/ble/examples/lib/dev"
-	"emfluids.com/mynewt-newtmgr/nmxact/bledefs"
-	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
 )
 
 type XportCfg struct {
