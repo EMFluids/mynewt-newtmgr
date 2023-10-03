@@ -29,11 +29,11 @@ import (
 	"github.com/spf13/cobra"
 
 	"mynewt.apache.org/newt/util"
-	"github.com/emfluids/mynewt-newtmgr/newtmgr/nmutil"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/nmp"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/nmxutil"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/xact"
+	"github.com/EMFluids/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/nmp"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/sesn"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/xact"
 )
 
 var optLogShowFull bool

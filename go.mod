@@ -1,4 +1,4 @@
-module github.com/emfluids/mynewt-newtmgr
+module github.com/EMFluids/mynewt-newtmgr
 
 go 1.12
 

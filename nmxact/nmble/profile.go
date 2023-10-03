@@ -20,7 +20,7 @@
 package nmble
 
 import (
-	. "github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
+	. "github.com/EMFluids/mynewt-newtmgr/nmxact/bledefs"
 )
 
 type Descriptor struct {

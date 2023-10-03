@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/emfluids/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/nmxutil"
 
 	log "github.com/sirupsen/logrus"
 )

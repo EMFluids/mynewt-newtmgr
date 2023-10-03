@@ -24,10 +24,10 @@ import (
 	"strings"
 
 	"mynewt.apache.org/newt/util"
-	"github.com/emfluids/mynewt-newtmgr/newtmgr/nmutil"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/lora"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/mtech_lora"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
+	"github.com/EMFluids/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/lora"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/mtech_lora"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/sesn"
 )
 
 func NewMtechLoraConfig() *mtech_lora.LoraConfig {

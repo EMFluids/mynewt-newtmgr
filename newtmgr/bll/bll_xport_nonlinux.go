@@ -24,7 +24,7 @@ package bll
 import (
 	"github.com/JuulLabs-OSS/ble"
 
-	"github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/bledefs"
 )
 
 // macOS (CoreBluetooth) does not allow the connection parameters to be

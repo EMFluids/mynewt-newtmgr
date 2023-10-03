@@ -23,14 +23,14 @@ package bll
 
 import (
 	"fmt"
-	"github.com/emfluids/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/EMFluids/mynewt-newtmgr/newtmgr/nmutil"
 	"runtime"
 	"time"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/JuulLabs-OSS/ble"
 
-	"github.com/emfluids/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/bledefs"
 )
 
 func exchangeMtu(cln ble.Client, preferredMtu uint16) (uint16, error) {

@@ -25,16 +25,16 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"mynewt.apache.org/newt/util"
-	"github.com/emfluids/mynewt-newtmgr/newtmgr/bll"
-	"github.com/emfluids/mynewt-newtmgr/newtmgr/config"
-	"github.com/emfluids/mynewt-newtmgr/newtmgr/nmutil"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/mtech_lora"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/nmble"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/nmcoap"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/nmserial"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/sesn"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/udp"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/xport"
+	"github.com/EMFluids/mynewt-newtmgr/newtmgr/bll"
+	"github.com/EMFluids/mynewt-newtmgr/newtmgr/config"
+	"github.com/EMFluids/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/mtech_lora"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/nmble"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/nmserial"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/sesn"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/udp"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/xport"
 )
 
 var globalSesn sesn.Sesn

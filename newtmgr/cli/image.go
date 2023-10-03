@@ -30,10 +30,10 @@ import (
 	pb "gopkg.in/cheggaaa/pb.v1"
 
 	"mynewt.apache.org/newt/util"
-	"github.com/emfluids/mynewt-newtmgr/newtmgr/core"
-	"github.com/emfluids/mynewt-newtmgr/newtmgr/nmutil"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/nmp"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/xact"
+	"github.com/EMFluids/mynewt-newtmgr/newtmgr/core"
+	"github.com/EMFluids/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/nmp"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/xact"
 )
 
 var (

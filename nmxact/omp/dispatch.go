@@ -25,9 +25,9 @@ import (
 
 	"github.com/runtimeco/go-coap"
 
-	"github.com/emfluids/mynewt-newtmgr/nmxact/nmcoap"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/nmp"
-	"github.com/emfluids/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/nmp"
+	"github.com/EMFluids/mynewt-newtmgr/nmxact/nmxutil"
 )
 
 type Listener struct {

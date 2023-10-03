@@ -24,8 +24,8 @@ import (
 	"strings"
 
 	"mynewt.apache.org/newt/util"
-	"github.com/emfluids/mynewt-newtmgr/newtmgr/config"
-	"github.com/emfluids/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/EMFluids/mynewt-newtmgr/newtmgr/config"
+	"github.com/EMFluids/mynewt-newtmgr/newtmgr/nmutil"
 
 	"github.com/spf13/cobra"
 )
