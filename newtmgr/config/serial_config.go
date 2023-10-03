@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/nmserial"
+	"emfluids.com/mynewt-newtmgr/newtmgr/nmutil"
+	"emfluids.com/mynewt-newtmgr/nmxact/nmserial"
 	"mynewt.apache.org/newt/util"
 )
 

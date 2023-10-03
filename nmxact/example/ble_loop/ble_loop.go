@@ -29,12 +29,12 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
-	"mynewt.apache.org/newtmgr/nmxact/nmble"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
-	"mynewt.apache.org/newtmgr/nmxact/xact"
-	"mynewt.apache.org/newtmgr/nmxact/xport"
+	"emfluids.com/mynewt-newtmgr/nmxact/bledefs"
+	"emfluids.com/mynewt-newtmgr/nmxact/nmble"
+	"emfluids.com/mynewt-newtmgr/nmxact/nmxutil"
+	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
+	"emfluids.com/mynewt-newtmgr/nmxact/xact"
+	"emfluids.com/mynewt-newtmgr/nmxact/xport"
 )
 
 func configExitHandler(x xport.Xport, s sesn.Sesn) {

@@ -24,9 +24,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	. "mynewt.apache.org/newtmgr/nmxact/bledefs"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	. "emfluids.com/mynewt-newtmgr/nmxact/bledefs"
+	"emfluids.com/mynewt-newtmgr/nmxact/nmxutil"
+	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
 )
 
 type AdvertiseCfg struct {

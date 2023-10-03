@@ -26,9 +26,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	. "mynewt.apache.org/newtmgr/nmxact/bledefs"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/task"
+	. "emfluids.com/mynewt-newtmgr/nmxact/bledefs"
+	"emfluids.com/mynewt-newtmgr/nmxact/nmxutil"
+	"emfluids.com/mynewt-newtmgr/nmxact/task"
 )
 
 type Notification struct {

@@ -35,7 +35,7 @@ import (
 	"github.com/tarm/serial"
 
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
 )
 
 type XportCfg struct {

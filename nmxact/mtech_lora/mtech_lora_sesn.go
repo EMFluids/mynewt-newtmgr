@@ -32,13 +32,13 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/ugorji/go/codec"
 
-	"mynewt.apache.org/newtmgr/nmxact/lora"
-	"mynewt.apache.org/newtmgr/nmxact/mgmt"
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/nmp"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/omp"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"emfluids.com/mynewt-newtmgr/nmxact/lora"
+	"emfluids.com/mynewt-newtmgr/nmxact/mgmt"
+	"emfluids.com/mynewt-newtmgr/nmxact/nmcoap"
+	"emfluids.com/mynewt-newtmgr/nmxact/nmp"
+	"emfluids.com/mynewt-newtmgr/nmxact/nmxutil"
+	"emfluids.com/mynewt-newtmgr/nmxact/omp"
+	"emfluids.com/mynewt-newtmgr/nmxact/sesn"
 )
 
 type LoraSesn struct {

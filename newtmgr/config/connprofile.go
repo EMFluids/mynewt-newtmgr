@@ -31,7 +31,7 @@ import (
 	"sort"
 
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
+	"emfluids.com/mynewt-newtmgr/newtmgr/nmutil"
 )
 
 type ConnProfileMgr struct {

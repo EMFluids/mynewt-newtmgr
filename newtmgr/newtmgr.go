@@ -26,10 +26,10 @@ import (
 	"syscall"
 
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/cli"
-	"mynewt.apache.org/newtmgr/newtmgr/config"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/nmserial"
+	"emfluids.com/mynewt-newtmgr/newtmgr/cli"
+	"emfluids.com/mynewt-newtmgr/newtmgr/config"
+	"emfluids.com/mynewt-newtmgr/newtmgr/nmutil"
+	"emfluids.com/mynewt-newtmgr/nmxact/nmserial"
 )
 
 func isSerial() bool {
