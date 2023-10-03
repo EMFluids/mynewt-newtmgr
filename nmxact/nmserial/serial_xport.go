@@ -287,11 +287,10 @@ func (sx *SerialXport) Tx(bytes []byte) error {
 		 * carriage return (and possibly LF 2 bytes), */
 
 		/* all totaled, MTU-4 bytes bytes should work */
-		writeLen := util.Min(sx.cfg.Mtu - 4, totlen-written)
-
-		writeBytes := base64Data[written : written+writeLen]
-		sx.txRaw(writeBytes)
-		sx.txRaw([]byte{'\n'})
+		writeLen := util.Min(1024, totlen-written)
+ 
+ 		writeBytes := base64Data[written : written+writeLen]
+ 		sx.txRaw(writeBytes)
 
 		written += writeLen
 	}

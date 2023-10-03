@@ -45,6 +45,7 @@ const IMAGE_UPLOAD_START_WS = 1
 const IMAGE_UPLOAD_DEF_MAX_WS = 5
 const IMAGE_UPLOAD_STATUS_EXPECTED = 0
 const IMAGE_UPLOAD_STATUS_RQ = 1
+const IMAGE_UPLOAD_CHUNK_ALIGNMENT = 4
 
 type ImageUploadProgressFn func(c *ImageUploadCmd, r *nmp.ImageUploadRsp)
 type ImageUploadCmd struct {
@@ -147,12 +148,16 @@ func findChunkLen(s sesn.Sesn, hash []byte, upgrade bool, data []byte,
 		// Encoded length is larger than MTU, we need to make chunk shorter
 		overflow := len(enc) - s.MtuOut()
 		chunklen -= overflow
-		if chunklen <= 0 {
-			return 0, fmt.Errorf("Cannot create image upload request; "+
-				"MTU too low to fit any image data; max-payload-size=%d chunklen %d",
-				s.MtuOut(), chunklen)
+		//Ensure the chunk length is always aligned as bootloader expected
+		if chunklen > IMAGE_UPLOAD_CHUNK_ALIGNMENT {
+				remain_bytes := chunklen % IMAGE_UPLOAD_CHUNK_ALIGNMENT
+				if remain_bytes != 0 {
+					chunklen -= remain_bytes
+				}
+			}
+		
+			return chunklen, nil
 		}
-	}
 
 	return chunklen, nil
 }
